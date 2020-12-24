@@ -1,0 +1,1216 @@
+Dependencies for Project 'spi_can', Target 'dog_spi2can': (DO NOT MODIFY !)
+F (..\Libraries\CMSIS\GD\GD32E10x\Source\system_gd32e10x.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\system_gd32e10x.o --omf_browse .\objects\system_gd32e10x.crf --depend .\objects\system_gd32e10x.d)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\CMSIS\GD\GD32E10x\Source\ARM\startup_gd32e10x.s)(0x5FDB120C)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "GD32E10x SETA 1"--list .\listings\startup_gd32e10x.lst --xref -o .\objects\startup_gd32e10x.o --depend .\objects\startup_gd32e10x.d)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_adc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_adc.o --omf_browse .\objects\gd32e10x_adc.crf --depend .\objects\gd32e10x_adc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_bkp.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_bkp.o --omf_browse .\objects\gd32e10x_bkp.crf --depend .\objects\gd32e10x_bkp.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_can.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_can.o --omf_browse .\objects\gd32e10x_can.crf --depend .\objects\gd32e10x_can.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_crc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_crc.o --omf_browse .\objects\gd32e10x_crc.crf --depend .\objects\gd32e10x_crc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_ctc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_ctc.o --omf_browse .\objects\gd32e10x_ctc.crf --depend .\objects\gd32e10x_ctc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_dac.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_dac.o --omf_browse .\objects\gd32e10x_dac.crf --depend .\objects\gd32e10x_dac.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_dbg.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_dbg.o --omf_browse .\objects\gd32e10x_dbg.crf --depend .\objects\gd32e10x_dbg.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_dma.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_dma.o --omf_browse .\objects\gd32e10x_dma.crf --depend .\objects\gd32e10x_dma.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_exmc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_exmc.o --omf_browse .\objects\gd32e10x_exmc.crf --depend .\objects\gd32e10x_exmc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_exti.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_exti.o --omf_browse .\objects\gd32e10x_exti.crf --depend .\objects\gd32e10x_exti.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_fmc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_fmc.o --omf_browse .\objects\gd32e10x_fmc.crf --depend .\objects\gd32e10x_fmc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_fwdgt.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_fwdgt.o --omf_browse .\objects\gd32e10x_fwdgt.crf --depend .\objects\gd32e10x_fwdgt.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_gpio.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_gpio.o --omf_browse .\objects\gd32e10x_gpio.crf --depend .\objects\gd32e10x_gpio.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_i2c.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_i2c.o --omf_browse .\objects\gd32e10x_i2c.crf --depend .\objects\gd32e10x_i2c.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_misc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_misc.o --omf_browse .\objects\gd32e10x_misc.crf --depend .\objects\gd32e10x_misc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_pmu.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_pmu.o --omf_browse .\objects\gd32e10x_pmu.crf --depend .\objects\gd32e10x_pmu.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_rcu.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_rcu.o --omf_browse .\objects\gd32e10x_rcu.crf --depend .\objects\gd32e10x_rcu.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_rtc.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_rtc.o --omf_browse .\objects\gd32e10x_rtc.crf --depend .\objects\gd32e10x_rtc.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_spi.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_spi.o --omf_browse .\objects\gd32e10x_spi.crf --depend .\objects\gd32e10x_spi.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_timer.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_timer.o --omf_browse .\objects\gd32e10x_timer.crf --depend .\objects\gd32e10x_timer.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_usart.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_usart.o --omf_browse .\objects\gd32e10x_usart.crf --depend .\objects\gd32e10x_usart.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\Libraries\GD32E10x_standard_peripheral\Source\gd32e10x_wwdgt.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_wwdgt.o --omf_browse .\objects\gd32e10x_wwdgt.crf --depend .\objects\gd32e10x_wwdgt.d)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\BSP\BSP_Config.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_config.o --omf_browse .\objects\bsp_config.crf --depend .\objects\bsp_config.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_can.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_can.o --omf_browse .\objects\bsp_can.crf --depend .\objects\bsp_can.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_delay.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_delay.o --omf_browse .\objects\bsp_delay.crf --depend .\objects\bsp_delay.d)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+F (..\BSP\bsp_gpio.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_gpio.o --omf_browse .\objects\bsp_gpio.crf --depend .\objects\bsp_gpio.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_spi.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_spi.o --omf_browse .\objects\bsp_spi.crf --depend .\objects\bsp_spi.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_timer.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_timer.o --omf_browse .\objects\bsp_timer.crf --depend .\objects\bsp_timer.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_uart.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_exit.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_exit.o --omf_browse .\objects\bsp_exit.crf --depend .\objects\bsp_exit.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\BSP\bsp_dma.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\bsp_dma.o --omf_browse .\objects\bsp_dma.crf --depend .\objects\bsp_dma.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+F (..\User\gd32e10x_it.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\gd32e10x_it.o --omf_browse .\objects\gd32e10x_it.crf --depend .\objects\gd32e10x_it.d)
+I (..\User\gd32e10x_it.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+F (..\User\gd32e10x_it.h)(0x5FDB120C)()
+F (..\User\gd32e10x_libopt.h)(0x5FDB120C)()
+F (..\User\leg_message.h)(0x5FDB120C)()
+F (..\User\math_ops.h)(0x5FDB120C)()
+F (..\User\main.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+I (..\User\math_ops.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x599EDB3E)
+I (..\User\leg_message.h)(0x5FDB120C)
+F (..\User\math_ops.c)(0x5FDB120C)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\math_ops.o --omf_browse .\objects\math_ops.crf --depend .\objects\math_ops.d)
+I (..\User\math_ops.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+F (..\User\main.cpp)(0x5FDB120C)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\CMSIS\GD\GD32E10x\Include -I ..\Libraries\GD32E10x_standard_peripheral\Include -I ..\User -I ..\BSP-I.\RTE\_dog_spi2can-IC:\Keil_v5\ARM\PACK\GigaDevice\GD32E10x_DFP\1.0.3\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DGD32E10x -DUSE_STDPERIPH_DRIVER -DGD32E10X -DGD32E103R_START-o .\objects\main_1.o --omf_browse .\objects\main_1.crf --depend .\objects\main_1.d)
+I (..\BSP\BSP_Config.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\gd32e10x.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\CMSIS\core_cmInstr.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cmFunc.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\core_cm4_simd.h)(0x5FDB120C)
+I (..\Libraries\CMSIS\GD\GD32E10x\Include\system_gd32e10x.h)(0x5FDB120C)
+I (..\User\gd32e10x_libopt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rcu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_adc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_can.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_crc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_ctc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dac.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dbg.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_dma.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exti.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fmc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_fwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_gpio.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_i2c.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_pmu.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_bkp.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_rtc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_spi.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_timer.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_usart.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_wwdgt.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_misc.h)(0x5FDB120C)
+I (..\Libraries\GD32E10x_standard_peripheral\Include\gd32e10x_exmc.h)(0x5FDB120C)
+I (..\BSP\bsp_gpio.h)(0x5FDB120C)
+I (..\BSP\bsp_uart.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\BSP\bsp_timer.h)(0x5FDB120C)
+I (..\BSP\bsp_spi.h)(0x5FDB120C)
+I (..\BSP\bsp_can.h)(0x5FDB120C)
+I (..\BSP\bsp_dma.h)(0x5FDB120C)
+I (..\BSP\bsp_delay.h)(0x5FDB120C)
+I (..\BSP\bsp_exit.h)(0x5FDB120C)
+I (..\User\math_ops.h)(0x5FDB120C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599EDB3E)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x599EDB3E)
+I (..\User\leg_message.h)(0x5FDB120C)
